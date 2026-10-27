@@ -1,3 +1,5 @@
+Senaste commit: <!-- latest-commit -->
+
 # Dag 1 · HTML-grunderna
 
 *Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
