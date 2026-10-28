@@ -11,7 +11,9 @@
           <ul>
                <li><a href="#hero">Hem</a></li>
                <li><a href="#meny">Meny</a></li>
+               <li><a href="#boka-bord">Boka bord</a></li>
                <li><a href="#om-oss">Om oss</a></li>
+
           </ul>
      </nav>
      <main>
@@ -36,6 +38,22 @@
                     <h3>Sprit</h3>
                     <p>Drunken sailor</p>
                </article>
+          </section>
+          <section id="boka-bord">
+               <h2>Boka bord</h2>
+               <p>Beställ ditt bord idag!</p>
+               <form action="index.html" method="post">
+                    <label for="namn">Namn:</label>
+                    <input type="text" id="namn" name="namn" required>
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="datum">Datum:</label>
+                    <input type="date" id="datum" name="datum" required>
+                    <label for="tid">Tid:</label>
+                    <input type="time" id="tid" name="tid" required>
+                    <label for="antal">Antal personer:</label>
+                    <input type="number" id="antal" name="antal" min="1" required>
+                    <button type="submit">Boka bord</button>
           </section>
           <section id="om-oss">
                <h2>Familjen</h2>
